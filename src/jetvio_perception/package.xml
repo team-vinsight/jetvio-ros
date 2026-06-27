@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>aisle_perception</name>
+  <version>0.0.1</version>
+  <description>Camera + cuVSLAM + nvblox runtime perception (diagram 2)</description>
+  <maintainer email="xavier@example.com">xavier</maintainer>
+  <license>Proprietary</license>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <exec_depend>ros2launch</exec_depend>
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>python3-numpy</exec_depend>
+  <export><build_type>ament_cmake</build_type></export>
+</package>

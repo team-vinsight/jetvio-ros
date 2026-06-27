@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>aisle_planning</name>
+  <version>0.0.1</version>
+  <description>EGO-Planner local planning + goal handling (diagram 3)</description>
+  <maintainer email="xavier@example.com">xavier</maintainer>
+  <license>Proprietary</license>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <exec_depend>ros2launch</exec_depend>
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>tf2_ros</exec_depend>
+  <export><build_type>ament_cmake</build_type></export>
+</package>

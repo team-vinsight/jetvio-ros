@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>aisle_description</name>
+  <version>0.0.1</version>
+  <description>Robot static frames: FCU body (base_link) relative to camera (diagram 1)</description>
+  <maintainer email="xavier@example.com">xavier</maintainer>
+  <license>Proprietary</license>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <exec_depend>ros2launch</exec_depend>
+  <exec_depend>tf2_ros</exec_depend>
+  <export><build_type>ament_cmake</build_type></export>
+</package>
